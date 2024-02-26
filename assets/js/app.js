@@ -20,8 +20,6 @@ let timeLeft = 10;
 let timerID = null
 
 
-
-
 function startGame() {
     welcomeScreen.style.transform = 'scale(0)';
     timerDisplay.style.display = "flex";
