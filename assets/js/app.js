@@ -96,6 +96,7 @@ const displayAlert = (msg) => {
         alert.textContent = "";
     }, 1000)
 }
+
 const startTimer = () => {
     clearInterval(timerID);
     timerDisplay.textContent = timeLeft;
@@ -135,6 +136,7 @@ const startQuiz = () => {
     timerDisplay.style.display = "flex";
     randomQuestion();
 }
+
 function nextQuestion() {
     const selectedChoice = document.querySelector(`.choice.selected`);
     if (!selectedChoice && nextBtn.textContent === "Next") {

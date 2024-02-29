@@ -6,9 +6,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'amiri';
+    src: url('../font/Amiri/Amiri-Bold.ttf');
+    src: url('../font/Amiri/Amiri-Regular.ttf');
+}
+
 body {
     background-color: #283739;
-    font-family: "Poppins", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .container {
@@ -18,7 +24,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .welcomeScreen {
@@ -79,6 +84,7 @@ body {
     text-align: center;
     margin: 20px;
     direction: rtl;
+    font-family: 'amiri' !important;
 
 }
 
@@ -99,6 +105,7 @@ body {
     transition: 0.3s;
     border: none;
     direction: rtl;
+    font-family: 'amiri' !important;
 
 }
 
@@ -123,6 +130,8 @@ body {
 
 .next:hover {
     transform: scale(0.9);
+    background-color: #FA7D09;
+    color: #F7EEBB;
 }
 
 .alert,
@@ -174,7 +183,6 @@ body {
 .timer {
     background-color: #FA7D09;
     animation: pulse 1s ease-in-out infinite;
-
 }
 
 
